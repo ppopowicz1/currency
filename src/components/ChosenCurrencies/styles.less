@@ -1,0 +1,35 @@
+.chosenCurrencies {
+  list-style: none;
+  padding: 0 10px;
+  margin-top: 20px;
+  border-bottom: 1px solid #DDD;
+
+  p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  button {
+    display: inline-block;
+    border: 0;
+    outline: none;
+    appearance: none;
+    padding: 2px 5px;
+    background-color: #CCC;
+    border-radius: 3px;
+    margin: 0 5px 10px 0;
+    font-size: 14px;
+    transition: background-color .1s;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+
+    &:hover {
+      background-color: #E88;
+    }
+
+    &.clearButton {
+      float: right;
+      margin-right: 0;
+    }
+  }
+}

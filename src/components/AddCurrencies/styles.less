@@ -1,0 +1,54 @@
+.addCurrencies {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px 0 15px;
+  text-align: center;
+  
+  p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  input {
+    transition: border-color .1s;
+    border: 1px solid #777;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 15px;
+    outline: none;
+    max-width: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 3px 0 0 3px;
+
+    &:focus {
+      border-color: #6ae;
+    }
+  }
+
+  button {
+    font-size: 15px;
+    height: 30px;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: #777;
+    transition: background-color .1s;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+
+    &:hover {
+      background-color: #6ae;
+    }
+
+    &:disabled {
+      color: #999;
+      background-color: #777;
+      cursor: default;
+    }
+  }
+}
